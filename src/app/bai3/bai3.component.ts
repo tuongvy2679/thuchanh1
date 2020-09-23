@@ -9,6 +9,7 @@ export class Bai3Component implements OnInit {
   ds = [{hoten: 'Nguyen Thi Mai', diemthi:9},{hoten: 'Tran Thi Anh', diemthi:7.5},{ hoten: 'Hoang Thi Dung', diemthi:8.3}];
 
   constructor() { }
+  title = "Bài 3: Hãy sắp xếp danh sách trên theo thứ tự tăng dần của trường họ tên";
 
   ngOnInit(): void {
     console.log(this.ds.sort((a, b) => {

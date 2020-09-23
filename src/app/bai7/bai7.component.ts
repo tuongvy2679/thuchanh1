@@ -16,10 +16,11 @@ export class Bai7Component implements OnInit {
   ALERT: string;
 
   constructor() { }
+  title = "Bài 7: Sử dụng kỹ thuật lập trình hướng đối tượng giải phương trình trùng phương ";
 
   ngOnInit(): void {
   }
-
+ 
   tinh() {
     let pt = new PhuongTrinh(this.A, this.B, this.C);
     let giai = pt.giai();

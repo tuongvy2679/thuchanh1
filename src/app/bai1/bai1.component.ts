@@ -11,6 +11,7 @@ export class Bai1Component implements OnInit {
   s = 0;
 
   constructor() { }
+  title = "Bài 1: Tính S(n) = x + x^2 + x^3 + … + x^n";
 
   ngOnInit(): void {
   }

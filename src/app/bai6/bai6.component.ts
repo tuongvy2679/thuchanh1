@@ -10,6 +10,7 @@ export class Bai6Component implements OnInit {
   S = 0;
 
   constructor() { }
+  title = "Bài 6: Tính tổng các phần tử là các số dương có trong một dãy số.";
 
   ngOnInit(): void {
     this.arrNum.map(x => {

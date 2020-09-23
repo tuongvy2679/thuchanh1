@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class Bai2Component implements OnInit {
 
   constructor() { }
+  title = "Bài 2: Tính S(x, n) = – x + x^2/2! – x^3/3! + … + (-1)^n * x^n/n!";
 
   ngOnInit(): void {
    

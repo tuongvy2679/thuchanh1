@@ -10,6 +10,7 @@ export class Bai5Component implements OnInit {
   arrResult = [];
 
   constructor() { }
+  title = "Bài 5: Cho biết các số là số chính phương có trong một dãy số";
 
   ngOnInit(): void {
     this.arrResult = this.arrNum.filter(x => {
